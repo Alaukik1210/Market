@@ -1,7 +1,7 @@
 import  { useState,  } from 'react';
 import type {ChangeEvent, DragEvent} from 'react';
 import {
-  ArrowLeft, Upload, X, Plus, DollarSign, Tag,
+   Upload, X, Plus, DollarSign, Tag,
   MapPin, FileText, Camera, CheckCircle
 } from 'lucide-react';
 import { useAppDispatch } from '../store/hooks';
@@ -198,7 +198,7 @@ const AddItem = () => {
         <div className="max-w-2xl mx-auto px-4 py-4">
           <div className="flex items-center gap-4">
             <button className="p-2 hover:bg-gray-100 rounded-lg transition-colors">
-              <ArrowLeft className="w-5 h-5" />
+              
             </button>
             <h1 className="text-xl font-semibold text-gray-900">Add New Item</h1>
           </div>
